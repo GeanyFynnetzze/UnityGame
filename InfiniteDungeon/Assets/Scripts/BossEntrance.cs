@@ -11,7 +11,7 @@ public class BossEntrance : MonoBehaviour
     [SerializeField] private AudioSource[] BossMusic;
 
     //Plays some boss music, shows his HP and also closes the door
-    //Fight with honour
+    //Fight with honor
     private void Start()
     {
         sound.Play("TheCave");
