@@ -12,7 +12,7 @@ public class BossEntrance : MonoBehaviour
 
     //Plays some boss music, shows his HP and also closes the door
     //Fight with honour
-    private void Awake()
+    private void Start()
     {
         sound.Play("TheCave");
     }
